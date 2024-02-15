@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap");
+:root {
+  --webSiteBackgroundColor: #24252a;
+  --white: #fff;
+  --black: black;
+  --red: red;
+  --blue: blue;
+  --urlColor: #2a81dd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+header,
+main,
+#car,
+#Post {
+  padding: 0px 100px;
+}
+img {
+  cursor: pointer;
+}
+#top {
+  margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+footer {
+  background-color: var(--webSiteBackgroundColor);
+  width: 100%;
+  padding: 50px 100px;
+  color: var(--white);
+  margin-top: 100px;
+}
+footer a {
+  text-decoration: none;
+}
+#footurData {
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+footer p:hover {
+  text-decoration: underline;
+  transition: 0.2s linear;
+}
+#footerAData p {
+  color: var(--white);
+  font-size: 16px;
+}
+#footerAData .first-element {
+  color: #bbbec9;
+  cursor: auto;
+  text-decoration: none;
+}
+#FooturImg {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+  gap: 11px;
+}
+#FooturImg img {
+  cursor: pointer;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#FootureData {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+#MainPrice p:nth-child(1) {
+  cursor: auto;
+}

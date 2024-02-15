@@ -1,0 +1,221 @@
+export const RangData = [
+  {
+    id: 1,
+    name: "Oq",
+  },
+  {
+    id: 1,
+    name: "Qora",
+  },
+  {
+    id: 1,
+    name: "Qaymoq rang Delfin",
+  },
+  {
+    id: 1,
+    name: "Mokriy asfalt",
+  },
+  {
+    id: 1,
+    name: "Kumush rang ",
+  },
+  {
+    id: 1,
+    name: "Saxara (qum rang)",
+  },
+  {
+    id: 1,
+    name: "Sadaf-jigarrang ",
+  },
+  {
+    id: 1,
+    name: "Sariq-yashil rang",
+  },
+  {
+    id: 1,
+    name: "Ko'k xavorang",
+  },
+  {
+    id: 1,
+    name: "Olcha",
+  },
+  {
+    id: 1,
+    name: "Ko'k",
+  },
+  {
+    id: 1,
+    name: "Kulrang Jigarrang",
+  },
+
+  {
+    id: 1,
+    name: "Bronza Xameleon",
+  },
+  {
+    id: 1,
+    name: "Feruza To'q-qizil",
+  },
+  {
+    id: 1,
+    name: "Moviy Sariq Yashil",
+  },
+  {
+    id: 1,
+    name: "Och-binafsha-rang",
+  },
+  {
+    id: 1,
+    name: "Oltin rang To'q-sariq Pushti rang Binafsha rang",
+  },
+  {
+    id: 1,
+    name: "To'q-ko'k",
+  },
+];
+export const carNames = [
+  { id: 1, name: "ARO" },
+  { id: 1, name: "BMW" },
+  { id: 1, name: "BYD" },
+];
+export const carNamesMapping = {
+  ARO: [
+    { id: 1, name: "10 Series" },
+    { id: 2, name: "24 Series" },
+  ],
+  BMW: [
+    { id: 1, name: "BMW XM" },
+    { id: 2, name: "BMW X4" },
+  ],
+  BYD: [
+    { id: 1, name: "Some BYD" },
+    { id: 2, name: "Some BYD" },
+  ],
+};
+export const carColorsName = [
+  { id: 1, name: "Oq" },
+  { id: 2, name: "Qaymoq rang" },
+  { id: 3, name: "Delfin" },
+  { id: 4, name: "Mokriy asfalt" },
+  { id: 5, name: "Qora" },
+  { id: 6, name: "Kumush rang" },
+  { id: 7, name: "Saxara (qum rang)" },
+  { id: 8, name: "Sadaf-jigarrang" },
+  { id: 9, name: "Sariq-yashil rang" },
+  { id: 10, name: "Ko'k-xavorang" },
+  { id: 11, name: "Olcha" },
+  { id: 12, name: "Ko'k" },
+  { id: 13, name: "Qizil" },
+  { id: 14, name: "Kulrang" },
+  { id: 15, name: "Jigar rang Bronza" },
+  { id: 16, name: "Xameleon" },
+  { id: 17, name: "Feruza" },
+  { id: 18, name: "Jigarrang" },
+  { id: 19, name: "To'q qizil" },
+  { id: 20, name: "Moviy" },
+  { id: 15, name: "Sariq" },
+  { id: 16, name: "Yashil" },
+  { id: 17, name: "Och binafsha rang" },
+  { id: 18, name: "Oltin rang" },
+  { id: 19, name: "To'q sariq" },
+  { id: 20, name: "Pushti rang" },
+  { id: 15, name: "Binafsha rang" },
+  { id: 16, name: "To'q ko'k" },
+];
+export const coat = [
+  { id: 1, name: "Kraska Toza" },
+  { id: 1, name: "Kraska bor" },
+  { id: 1, name: "Pyatno  bor" },
+  { id: 1, name: "To'liq kraskalangan" },
+];
+export const FuelType = [
+  { id: 1, name: "Benzin" },
+  { id: 1, name: "Gaz-Benzin" },
+  { id: 1, name: "Dizel" },
+  { id: 1, name: "Elektr" },
+  { id: 1, name: "Gibrid" },
+  { id: 1, name: "Gaz" },
+];
+export const UzatishQutisi = [
+  { id: 1, name: "Mexanik" },
+  { id: 1, name: "Avtomat" },
+  { id: 1, name: "Tiptronik" },
+  { id: 1, name: "Variator" },
+  { id: 1, name: "Robot" },
+];
+export const regions = [
+  { id: 1, name: "Toshkent viloyati" },
+  { id: 2, name: "Samarqand viloyati" },
+  { id: 3, name: "Namangan viloyati" },
+];
+export const cities = {
+  "Toshkent viloyati": [
+    { id: 1, name: "Toshkent" },
+    { id: 2, name: "Angren" },
+    { id: 3, name: "Bekobod" },
+    { id: 4, name: "Olmaliq" },
+    { id: 5, name: "Nurafshon" },
+    { id: 6, name: "Ohangaron" },
+    { id: 7, name: "Yangiyo'l" },
+    { id: 8, name: "Chirchiq" },
+    { id: 9, name: "Bekobod tumani" },
+    { id: 10, name: "Bo'ka tumani" },
+    { id: 11, name: "Bo'stonliq tumani" },
+    { id: 12, name: "Chinoz" },
+    { id: 13, name: "Oqqo'rg'on tumani " },
+    { id: 14, name: "O'rtachirchiq tumani" },
+    { id: 15, name: "Parkent tumani" },
+    { id: 16, name: "Piskent tumani" },
+    { id: 17, name: "Qibray tumani" },
+    { id: 18, name: "Quyichirchiq tumani" },
+    { id: 19, name: "Yangiyo'l tumani" },
+    { id: 20, name: "Yuqorichirchiq tumani" },
+    { id: 21, name: "Zangiota tumani" },
+    { id: 22, name: "Keles" },
+    { id: 23, name: "Nazarbek" },
+    { id: 24, name: "Eshonguzar" },
+    { id: 25, name: "Toshkent tumani" },
+    { id: 26, name: "Chorvoq" },
+    { id: 27, name: "Durmen" },
+    { id: 28, name: "G'azalkent" },
+    { id: 29, name: "Ko'ksaroy" },
+    { id: 30, name: "Qorasuv" },
+    { id: 31, name: "Salar" },
+    { id: 32, name: "Turkiston" },
+    { id: 33, name: "Nurafshon" },
+    { id: 34, name: "Yangibozor" },
+    { id: 35, name: "Yangiobod" },
+    { id: 36, name: "Xo'jakent" },
+  ],
+  "Samarqand viloyati": [
+    { id: 1, name: "Samarqand" },
+    { id: 2, name: "Samarqand tumani " },
+    { id: 3, name: "Kattaqo'rg'on tumani" },
+    { id: 4, name: "Oqdaryo tumani" },
+    { id: 5, name: "Bulung'ur tumani" },
+    { id: 6, name: "Jomboy tumani" },
+    { id: 7, name: "Ishtixon tumani" },
+    { id: 8, name: "Qo'shrabot tumani" },
+    { id: 9, name: "Payariq tumani" },
+    { id: 10, name: "Pastdarg'om tumani" },
+    { id: 11, name: "Paxtachi tumani" },
+    { id: 12, name: "Nurobod tumani" },
+    { id: 13, name: "Urgut tumani" },
+    { id: 14, name: "Narpay tumani" },
+    { id: 15, name: "Tayloq tumani" },
+  ],
+  "Namangan viloyati": [
+    { id: 1, name: "Namangan" },
+    { id: 2, name: "Kosonsoy tumani" },
+    { id: 3, name: "Mingbuloq tumani" },
+    { id: 4, name: "Namangan tumani" },
+    { id: 5, name: "Norin tumani" },
+    { id: 6, name: "Pop tumani" },
+    { id: 7, name: "To'raqao'rg'on tumani" },
+    { id: 8, name: "Uychi tumani" },
+    { id: 9, name: "Uchqurg'on tumani" },
+    { id: 10, name: "Chortoq tumani" },
+    { id: 11, name: "Chust tumani" },
+    { id: 12, name: "Yangiqo'rgo'n tumani" },
+  ],
+};

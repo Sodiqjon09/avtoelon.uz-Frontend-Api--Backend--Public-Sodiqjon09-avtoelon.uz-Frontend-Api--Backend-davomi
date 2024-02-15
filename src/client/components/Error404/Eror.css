@@ -1,0 +1,39 @@
+/* Error.css */
+#error404 {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.error-container {
+  text-align: center;
+}
+.error-code {
+  font-size: 5rem;
+  color: #dc3545;
+}
+.error-message {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+.error-container ul li {
+  list-style: none;
+  width: 150px;
+  height: 35px;
+  box-shadow: #2a81dd -4px 9px 25px -6px;
+  border-radius: 5px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.error-container ul li a {
+  text-decoration: none;
+  color: #2a81dd;
+  font-size: 20px;
+  cursor: pointer;
+}
