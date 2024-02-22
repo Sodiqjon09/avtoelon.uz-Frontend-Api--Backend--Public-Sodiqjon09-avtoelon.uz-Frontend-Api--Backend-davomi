@@ -712,8 +712,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-}
-.savdolashuv {
+}.savdolashuv {
   margin-top: 40px;
 }
 @property --border-angle-1 {
@@ -761,8 +760,7 @@
   to {
     --border-angle-3: 540deg;
   }
-}
-#postData button {
+}#postData button {
   transition: all 0.5s ease-out;
   cursor: pointer;
   margin-top: 30px;
@@ -807,8 +805,7 @@
     );
   animation: rotateBackground 3s linear infinite,
     rotateBackground2 8s linear infinite, rotateBackground3 13s linear infinite;
-}
-#postData button div {
+}#postData button div {
   background: var(--background);
   border-radius: calc(var(--border-radius) - var(--border-size));
   color: var(--foreground);
@@ -817,18 +814,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#postData button:hover {
+}#postData button:hover {
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
     rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
     rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-}
-.modleTextIcon {
+}.modleTextIcon {
   display: flex;
   align-items: center;
   gap: 7px;
-}
-.ViewedList input {
+}.ViewedList input {
   border: 1px solid #abadb3;
   color: #000;
   font-size: 1.356em;
@@ -836,19 +830,16 @@
   line-height: 26px;
   padding: 0.1em;
   width: 5.9em;
-}
-#km {
+}#km {
   display: flex;
   align-items: center;
   gap: 3px;
-}
-#formData select,
+}#formData select,
 #formData input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
-#formData input {
+}#formData input {
   width: 6em;
   height: 30px;
   background-color: white;
@@ -856,10 +847,8 @@
   box-shadow: 0px 0px 1.5px 0px rgba(0, 0, 255, 0.5);
   transition: box-shadow 0.3s ease;
   outline: none;
-}
-#formData input:hover {
+}#formData input:hover {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 255, 0.7);
-}
-#navbarIcon {
+}#navbarIcon {
   cursor: pointer;
 }
