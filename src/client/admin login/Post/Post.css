@@ -293,7 +293,6 @@
 }
 .content h2:nth-child(2) {
   color: rgb(0, 166, 255);
-  /* rgb(0, 239, 163) */
   animation: animate 4s ease-in-out infinite;
 }
 @keyframes animate {
