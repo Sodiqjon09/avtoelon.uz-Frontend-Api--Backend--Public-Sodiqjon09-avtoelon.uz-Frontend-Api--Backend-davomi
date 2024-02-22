@@ -554,7 +554,6 @@
 }
 @media (max-width: 615px) {
   #checkbox p {
-    /* border: 1px solid red; */
     width: 100%;
   }
   #checkbox p {
@@ -589,6 +588,33 @@
   }
   #checkbox p {
     font-size: 9px;
+  }
+  .ldio-ek9odou59f div > div {
+    width: 57.4px;
+    height: 57.4px;
+  }
+  .loadingio-spinner-spin-s5tib6bbx1c {
+    display: none;
+  }
+  .loadingResponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50% auto;
+  }
+  .loader {
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #000 #0000;
+    animation: l1 1s infinite;
+  }
+  @keyframes l1 {
+    to {
+      transform: rotate(0.5turn);
+    }
   }
 }
 @media (max-width: 518px) {
@@ -642,7 +668,6 @@
   }
   #apiText p,
   #cost p span:nth-child(2) {
-    color: red;
     font-size: 10px;
     line-height: 14px;
   }
@@ -666,6 +691,7 @@
   #footurData {
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
   }
   #apiimgText {
     border-radius: 5px;
@@ -679,7 +705,6 @@
   }
   #apiText p,
   #cost p span:nth-child(2) {
-    color: red;
     font-size: 10px;
     line-height: 14px;
   }
@@ -713,11 +738,11 @@
   #api img {
     border-radius: 5px;
     width: 280px;
-    height: 170px;
+    height: 180px;
+    background-image: initial;
   }
   #apiText p,
   #cost p span:nth-child(2) {
-    color: red;
     font-size: 12px;
     line-height: 14px;
   }

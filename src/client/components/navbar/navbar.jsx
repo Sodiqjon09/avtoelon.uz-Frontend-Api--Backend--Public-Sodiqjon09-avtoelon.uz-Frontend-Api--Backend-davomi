@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
@@ -7,13 +7,11 @@ import { NavbarData } from "../../data/navbar/navbar";
 import { FaBars } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { IoCloseSharp } from "react-icons/io5";
-// import BarsClick from "../BarsClick/BarsClick";
 
 const NavbarComponent = () => {
   const [text, setText] = useState(true);
   const [icon, setIcon] = useState(false);
   const [Bars, setBars] = useState(false);
-  // const [x, setX] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,20 +41,11 @@ const NavbarComponent = () => {
   const BarsButton = () => {
     setBars(true);
     setIcon(false);
-    // setX(true);
   };
-
-  // const IoCloseSharp1 = document.getElementById("IoCloseSharp");
 
   const IoCloseSharpClick = () => {
     setBars(false);
     setIcon(true);
-    // setX(false);
-    // IoCloseSharp1.style.position = "fixed";
-    // IoCloseSharp1.style.top = 0;
-    // IoCloseSharp1.style.left = 0;
-    // IoCloseSharp1.style.position = "fixed";
-    // IoCloseSharp1.style.backgroundColor = "red";
   };
 
   return (

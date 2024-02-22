@@ -2,21 +2,21 @@ export const NavbarData = [
   {
     id: 1,
     name: "Avtomobillar",
-    Link: "/mashina",
+    Link: "https://avtoelon-uz-frontend-api-backend-sodiqjon09.vercel.app/",
   },
   {
     id: 2,
     name: "Avto ehtiyot qismlari va tovarlar",
-    Link: "/avtozapchat",
+    Link: "https://avtoelon-uz-frontend-api-backend-sodiqjon09.vercel.app/",
   },
   {
     id: 3,
     name: "Maxsus texnika",
-    Link: "/mashinasozlik",
+    Link: "https://avtoelon-uz-frontend-api-backend-sodiqjon09.vercel.app/",
   },
   {
     id: 4,
     name: "Ta'mirlash va xizmatlar",
-    Link: "/Ремонт",
+    Link: "https://avtoelon-uz-frontend-api-backend-sodiqjon09.vercel.app/",
   },
 ];

@@ -8,6 +8,7 @@ import {
 import { useState } from "react";
 import { VscSettings } from "react-icons/vsc";
 import { FaArrowDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   const [checkboxStates, setCheckboxStates] = useState(
@@ -47,18 +48,22 @@ const Main = () => {
               <div id="itemMenuRegionsData">
                 {itemMenuRegionsData?.map((data) => {
                   return (
-                    <div key={data.id}>
-                      <p>{data.name}</p>
-                    </div>
+                    <Link key={data.id} to="#apiimgText">
+                      <div>
+                        <p>{data.name}</p>
+                      </div>
+                    </Link>
                   );
                 })}
               </div>
               <div id="itemMenuCampaignsData">
                 {itemMenuCampaignsData?.map((data) => {
                   return (
-                    <div key={data.id}>
-                      <p>{data.name}</p>
-                    </div>
+                    <Link key={data.id} to="#apiimgText">
+                      <div>
+                        <p>{data.name}</p>
+                      </div>
+                    </Link>
                   );
                 })}
               </div>
